@@ -1,0 +1,50 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 7, 2023, 2:58:56 PM
+    Author     : ADMIN
+*/
+
+
+*{ 
+    box-sizing:border-box;
+ }
+  html{ font-family: arial;
+        font-size: 12px; 
+  }
+  header,section,footer,nav,ul { float: left;width: 100%;}
+  header, nav, footer{ height: 100px;
+                       background-color: #fafbee;
+  }
+  section { height: auto;}
+  header li{width:11.5%;  
+            list-style-type: none;
+            text-align: center;
+            float:left;
+          }
+  a    {    
+            text-align: center;
+            color: olivedrab;
+            font-size: 1.5em;
+            text-decoration: none;
+       }
+            
+ header li:last-child { width:30%; float:right;}
+ #logo { width: 100px; height: 100px; }
+ 
+.form table{width:50%;}
+
+.product {width: 20%; height: auto; float:left; margin: 5%;}
+
+.order { border: 3px solid #99FF99; width:100%; margin: 1% 0 1% 0;}
+.order tr:first-child{ border: 2px double #99FF99; width:100%; background-color:#e1f5eb ; color: #009933;}
+.order td{ border: 0.5px double #99FF99; width: 5%;}
+
+.plantimg { width:100px; height: 100px;}
+
+.shopping { border: 1px solid black; width:70%; margin: 1% 0 1% 0;  }
+.shopping tr:first-child{ width:100%; background-color:#99FF99 ; color: #009933;}
+.shopping td{  color:black; width: 15%;}
